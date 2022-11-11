@@ -52,8 +52,8 @@ namespace DataGridView2 {
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            if(n != -1)
-            {
+            if(n != -1){
+
                 dgvProductos.Rows.RemoveAt(n);
             }
         }
