@@ -8,24 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DataGridView2
-{
-    public partial class DataGridView : Form
-        
-    {
+namespace DataGridView2 {
+
+    public partial class DataGridView : Form{
+
         private int  n = 0;
         public DataGridView()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+        private void Form1_Load(object sender, EventArgs e){
 
         }
 
-        private void btnAdicionar_Click(object sender, EventArgs e)
-        {
+        private void btnAdicionar_Click(object sender, EventArgs e){
+
             //Añadimos nuevo renglon
             int n = dgvProductos.Rows.Add();
 
@@ -39,11 +37,11 @@ namespace DataGridView2
             txtCodigo.Text = "";
             txtNombre.Text = "";
             txtPrecio.Text = "";
-
+            
         }
 
-        private void dgvProductos_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
+        private void dgvProductos_CellClick(object sender, DataGridViewCellEventArgs e){
+
             n = e.RowIndex;
 
             if (n != -1)
