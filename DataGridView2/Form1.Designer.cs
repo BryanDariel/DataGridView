@@ -53,9 +53,9 @@
             this.Codigo,
             this.Nombre,
             this.Precio});
-            this.dgvProductos.Location = new System.Drawing.Point(4, 288);
+            this.dgvProductos.Location = new System.Drawing.Point(4, 160);
             this.dgvProductos.Name = "dgvProductos";
-            this.dgvProductos.Size = new System.Drawing.Size(344, 150);
+            this.dgvProductos.Size = new System.Drawing.Size(344, 278);
             this.dgvProductos.TabIndex = 0;
             this.dgvProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProductos_CellClick);
             // 
@@ -125,7 +125,7 @@
             // lblInformacion
             // 
             this.lblInformacion.AutoSize = true;
-            this.lblInformacion.Location = new System.Drawing.Point(38, 231);
+            this.lblInformacion.Location = new System.Drawing.Point(41, 130);
             this.lblInformacion.Name = "lblInformacion";
             this.lblInformacion.Size = new System.Drawing.Size(35, 13);
             this.lblInformacion.TabIndex = 7;
